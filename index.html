@@ -41,7 +41,7 @@
     </p>
   </div>
   <div class="col-md-4">
-    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/286.jpg" class="img-fluid rounded-circle" alt="a friendly kitten">
+      <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/286.jpg" class="img-fluid rounded-circle" alt="a friendly kitten">
     </img>
   </div>
   </div>
@@ -57,23 +57,31 @@
 <div class="row">
 <div class="col-md-4">
 <header class="col-md-12">
-  <h3> Project 1</h3>
+  <h3> Pomodoro Timer</h3>
 </header>
   <figure class="figure">
-  <img src="http://placehold.it/360x200" class="figure-img img-fluid rounded mx-auto d-bloc" alt="A screenshot for project 1">
+  <a href="https://s.codepen.io/pethaf/debug/LLGJbb/XBkGRoWxOzgA">
+  <img src="Images/Pomodoro.png"
+   class="figure-img img-fluid rounded mx-auto d-bloc"
+   alt="A screenshot for the pomodoro timer">
+</a>
   <figcaption class=" text-center figure-caption">
-    Screenshot for project 1
+    Simple pomodoro timer made with plain javascript and html5 canvas.
     </figcaption>
 </figure>
 </div>
   <div class="offset-md-4 col-md-4">
 <header class="col-md-12">
-  <h3> Project 2</h3>
+  <h3> Electronic Calculator</h3>
 </header>
     <figure class="figure">
-  <img src="http://placehold.it/360x200" class="figure-img img-fluid rounded mx-auto d-bloc" alt="A screenshot for project 2">
+  <a href="https://s.codepen.io/pethaf/debug/EXjaLo/RBAOJepvzVRr">
+  <img src="Images/Calculator.png"
+  class="figure-img img-fluid rounded mx-auto d-bloc"
+  alt="A screenshot for the electronic calculator replica">
+</a>
   <figcaption class="text-center figure-caption">
-    Screenshot for project 2
+    Electronic calculator replica made with vanilla js and html5.
     </figcaption>
 </figure>
 </div>
@@ -81,22 +89,63 @@
   <div class="row">
 <div class="col-md-4">
 <header class="col-md-12">
-  <h3> Project 3</h3>
+  <h3> Wikipedia Viewer</h3>
 </header>
   <figure class="figure">
-  <img src="http://placehold.it/360x200" class="figure-img img-fluid rounded mx-auto d-bloc" alt="A screenshot for project 3">
+  <a href="https://s.codepen.io/pethaf/debug/XRGeKz/dXAqBbnopqDk">
+  <img src="Images/Wikipedia.png"
+  class="figure-img img-fluid rounded mx-auto d-bloc"
+  alt="A screenshot for the wikipedia viewer">
+</img></a>
   <figcaption class="figure-caption text-center">
-    Screenshot for project 3
+    Interface for searching wikipedia articles.
+    Made with twitter bootstrap 4 and jQuery.
 </div>
   <div class="offset-md-4 col-md-4">
 <header class="col-md-12">
-  <h3> Project 4</h3>
+  <h3> Twitch Viewer</h3>
 </header>
     <figure class="figure">
-  <img src="http://placehold.it/360x200" class="mx-auto d-bloc figure-img img-fluid rounded" alt="A screenshot for project 4">
+  <a href="https://s.codepen.io/pethaf/debug/rmbEqP/LDAmdVWxpwnr">
+  <img src="Images/Twitch.png"
+  class="mx-auto d-bloc figure-img img-fluid rounded"
+  alt="A screenshot for project 4">
+</a>
   <figcaption class="text-center figure-caption">
-    Screenshot for project 4
+    Utility for checking status of twitch streams.
+    Made with jQuery and HTML5.
 </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+  <header class="col-md-12">
+    <h3> Random Quote Machine</h3>
+  </header>
+    <figure class="figure">
+    <a href="https://s.codepen.io/pethaf/debug/GmWeNp/gaAeYJveynQA">
+    <img src="Images/Quote.png"
+    class="figure-img img-fluid rounded mx-auto d-bloc"
+    alt="A screenshot for the wikipedia viewer">
+  </img></a>
+    <figcaption class="figure-caption text-center">
+      Fetches a random quote and allows user to retweet it.
+      Made with jQuery and Twitter Bootstrap 4.
+  </div>
+    <div class="offset-md-4 col-md-4">
+  <header class="col-md-12">
+    <h3> Local Weather</h3>
+  </header>
+      <figure class="figure">
+    <a href="https://s.codepen.io/pethaf/debug/BRRVea/mVkbGEqvaOvM">
+    <img src="Images/Weather.png"
+    class="mx-auto d-bloc figure-img img-fluid rounded"
+    alt="A screenshot for project 4">
+  </a>
+    <figcaption class="text-center figure-caption">
+    Displays local weather. User location determined through the GeoLocation
+    interface. Made with Twitter Bootstrap 4 and jQuery.
+  </div>
+
 </div>
 </div>
 </div>
@@ -112,19 +161,23 @@
     <div class="col-md-6">
 <form >
 <fieldset class="form-group">
-<input type="text" class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+<input type="text" class="form-control" id="name" name="name"
+placeholder="Name" type="text" required>
 </fieldset>
 <fieldset class="form-group">
 <input type="email" class="form-control" id="email"
-name="email" placeholder="user@domain.com" type="email" required>
+       name="email" placeholder="user@domain.com" type="email" required>
 </fieldset>
 <fieldset class="form-group">
-<input type="tel" class="form-control" id="phone" name="phone" placeholder="phonenumber" required>
+<input type="tel" class="form-control" id="phone" name="phone"
+       placeholder="phonenumber" required>
 </fieldset>
 <fieldset class="form-group">
-<textarea class="input form-control" id="message" name="message" placeholder="Message" rows="5" cols="5" placeholder="Message" required></textarea>
+<textarea class="input form-control" id="message" required
+          name="message" rows="5" cols="5" placeholder="Message"></textarea>
 </fieldset>
-<button type="submit" class="btn btn-default btn-primary mx-auto" id="submit">Submit</button>
+<button type="submit"
+        class="btn btn-default btn-primary mx-auto" id="submit">Submit</button>
 </form>
 
     </div>
