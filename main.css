@@ -61,3 +61,15 @@ footer i:hover
   cursor: pointer;
 
 }
+
+@media all and (max-width: 450px)
+{
+  h3.display-3
+  {
+    font-size: 24px;
+  }
+  h3 
+  {
+    font-size: 24px;
+  }
+}
