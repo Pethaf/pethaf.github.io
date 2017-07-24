@@ -1,0 +1,59 @@
+#about
+{
+   background: #bbb;
+}
+.jumbotron
+{
+  margin-bottom:0;
+}
+#contact
+{
+  background-color: #909090;
+}
+#portfolio
+{
+  background: #605F5F;
+}
+
+.figure-caption
+{
+  color: white;
+}
+
+.form-control
+{
+  color:rgb(92,92,92);
+  background: rgb(144,144,144);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid rgb(96,96,95);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  resize: none;
+
+}
+
+.form-control:focus
+{
+  color:rgb(92,92,92);
+  background: rgb(144,144,144);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid rgb(96,96,95);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  resize: none;
+}
+
+footer i
+{
+  margin-left: 10px;
+}
+
+footer i:hover
+{
+  cursor: pointer;
+
+}
