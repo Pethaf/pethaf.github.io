@@ -145,7 +145,6 @@
     Displays local weather. User location determined through the GeoLocation
     interface. Made with Twitter Bootstrap 4 and jQuery.
   </div>
-
 </div>
 </div>
 </div>
@@ -186,16 +185,25 @@ placeholder="Name" type="text" required>
       </div>
     </div>
   </div>
-    <footer class="col-md-4 offset-md-4">
-      <i class="fa fa-free-code-camp fa-4x" aria-hidden="true"></i>
-      <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-      <i class="fa fa-codepen fa-4x" aria-hidden="true"></i>
+    <footer class="col-md-4 offset-md-4" id="links">
+      <i class="fa fa-free-code-camp fa-4x" aria-hidden="true"
+       data-toggle="tooltip" data-placement="top"
+       title="See more projects on freecodecamp"></i>
+      <i class="fa fa-github fa-4x" aria-hidden="true" data-toggle="tooltip"
+      data-placement="top"
+      title="See more projects on github"></i>
+      <i class="fa fa-codepen fa-4x" aria-hidden="true" data-toggle="tooltip"
+      data-placement="top"
+      title="See more projects on codepen"></i>
     </footer>
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/4340415043.js"></script>
-<script src="main.js" async></script>
+<script src="main.js"></script>
+
+</script>
 </body>
 </html>

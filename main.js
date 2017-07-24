@@ -1,3 +1,4 @@
+$(document).ready(() => {
 $( "#submit" ).click(function(e) {
   e.preventDefault();
   alert("This form is for demonstration only please use regular email instead");
@@ -20,7 +21,8 @@ $( ".fa" ).click(function() {
       window.open(CODEPENURL,'_blank');
 
   }
-
-  console.log(this);
-  console.log(this.classList.value.indexOf("free-code-camp"));
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+});
 });
