@@ -59,10 +59,13 @@ footer i:hover
   cursor: pointer;
 
 }
-
+.navigation
+{
+  display: none;
+}
 @media all and (max-width: 450px)
 {
-  h3,h3.display-3
+  h2,h2.display-3
   {
     font-size: 24px;
   }
