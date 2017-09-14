@@ -30,9 +30,9 @@
   </nav>
 
 <div class="container">
-  <section class="jumbotron" name="about">
+  <section class="jumbotron" id="about">
     <header class="col-md-12">
-      <h3 class="text-center text-uppercase display-3" name="about">About Me</h1>
+      <h3 class="text-center text-uppercase display-3">About Me</h3>
     </header>
   <div class="row">
   <div class="col-md-8">
@@ -42,16 +42,15 @@
   </div>
   <div class="col-md-4">
       <img src="Images/Cat.jpg" class="img-fluid rounded-circle" alt="a friendly kitten">
-    </img>
   </div>
   </div>
-  </div>
+</section>
 </div>
 <section class="container" id="container-2">
 <div class="jumbotron" id="portfolio">
 <div class="row">
   <header class="col-md-12">
-    <h3 class="text-center text-uppercase display-3" name="portfolio"> Previous projects</h1>
+    <h3 class="text-center text-uppercase display-3"> Previous projects</h3>
   </header>
   </div>
 <div class="row">
@@ -95,11 +94,12 @@
   <a href="https://s.codepen.io/pethaf/full/XRGeKz/dXAqBbnopqDk">
   <img src="Images/Wikipedia.png"
   class="figure-img img-fluid rounded mx-auto d-bloc"
-  alt="A screenshot for the wikipedia viewer">
-</img></a>
+  alt="A screenshot for the wikipedia viewer"></a>
   <figcaption class="figure-caption text-center">
     Interface for searching wikipedia articles.
     Made with twitter bootstrap 4 and jQuery.
+  </figcaption>
+</figure>
 </div>
   <div class="offset-md-4 col-md-4">
 <header class="col-md-12">
@@ -114,6 +114,8 @@
   <figcaption class="text-center figure-caption">
     Utility for checking status of twitch streams.
     Made with jQuery and HTML5.
+  </figcaption>
+</figure>
 </div>
 </div>
 <div class="row">
@@ -125,11 +127,12 @@
     <a href="https://s.codepen.io/pethaf/full/GmWeNp/gaAeYJveynQA">
     <img src="Images/Quote.png"
     class="figure-img img-fluid rounded mx-auto d-bloc"
-    alt="A screenshot for the wikipedia viewer">
-  </img></a>
+    alt="A screenshot for the wikipedia viewer"></a>
     <figcaption class="figure-caption text-center">
       Fetches a random quote and allows user to retweet it.
       Made with jQuery and Twitter Bootstrap 4.
+    </figcaption>
+  </figure>
   </div>
     <div class="offset-md-4 col-md-4">
   <header class="col-md-12">
@@ -144,8 +147,9 @@
     <figcaption class="text-center figure-caption">
     Displays local weather. User location determined through the GeoLocation
     interface. Made with Twitter Bootstrap 4 and jQuery.
+  </figcaption>
+</figure>
   </div>
-</div>
 </div>
 </div>
   </section>
@@ -153,17 +157,17 @@
   <div class="jumbotron" id="contact">
   <div class="row">
     <header class="col-md-12">
-      <h3 class="display-3 text-uppercase text-center" name="contact">Contact Me</p>
+      <h3 class="display-3 text-uppercase text-center">Contact Me</h3>
     </header>
   </div>
     <div class="row">
     <div class="col-md-6">
-<form >
+<form>
 <fieldset class="form-group">
-<input type="text" class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-<input type="email" class="form-control" id="email" name="email" placeholder="user@domain.com" type="email" required>
-<input type="tel" class="form-control" id="phone" name="phone" placeholder="phonenumber" required>
-<textarea class="input form-control" id="message" name="message" rows="5" cols="5" placeholder="Message" ></textarea>
+<input type="text" class="form-control" id="name" name="name" placeholder="NAME" required>
+<input type="email" class="form-control" id="email" name="email" placeholder="USER@DOMAIN.COM" required>
+<input type="tel" class="form-control" id="phone" name="phone" placeholder="555-555-555" required>
+<textarea class="input form-control" id="message" name="message" rows="5" cols="5" placeholder="MESSAGE" ></textarea>
 </fieldset>
 <button type="submit"
         class="btn btn-default btn-primary mx-auto" id="submit">Submit</button>
@@ -175,6 +179,7 @@
       </div>
     </div>
   </div>
+</section>
     <footer class="col-md-4 offset-md-4" id="links">
       <i class="fa fa-free-code-camp fa-4x" aria-hidden="true"
        data-toggle="tooltip" data-placement="top"
@@ -186,14 +191,10 @@
       data-placement="top"
       title="See more projects on codepen"></i>
     </footer>
-  </div>
-</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/4340415043.js"></script>
 <script src="main.js"></script>
-
-</script>
 </body>
 </html>
