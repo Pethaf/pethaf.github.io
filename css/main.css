@@ -1,0 +1,63 @@
+body {
+  background: #8C489F;
+}
+#about, #contact, #portfolio {
+   background: #443266;
+   color: #F1F0FF;
+}
+
+.jumbotron {
+
+  margin-bottom:0;
+}
+
+.figure-caption {
+  color: #C3C3E5;
+}
+
+.form-control {
+  color: red;
+  background: orange;
+  background: rgb(144,144,144);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid rgb(96,96,95);
+  font-size: 1.5em;
+  resize: none;
+
+}
+
+.form-control:focus {
+  //color:rgb(92,92,92);
+  //background: rgb(144,144,144);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid rgb(96,96,95);
+  font-size: 1.5em;
+  resize: none;
+}
+
+footer i
+{
+  margin-left: 10px;
+}
+
+footer i:hover
+{
+  cursor: pointer;
+
+}
+.navigation
+{
+  display: none;
+}
+
+@media all and (max-width: 450px)
+{
+  h2,h2.display-3
+  {
+    font-size: 24px;
+  }
+}
