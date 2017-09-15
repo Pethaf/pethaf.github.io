@@ -2,13 +2,9 @@ body {
   background: #8C489F;
 }
 
-#about, #contact, #portfolio {
-   background: #443266;
-   color: #F1F0FF;
-}
-
 .jumbotron {
-
+  background: #443266;
+  color: #F1F0FF;
   margin-bottom:0;
 }
 
@@ -17,9 +13,8 @@ body {
 }
 
 .form-control {
-  color: red;
-  background: orange;
-  background: rgb(144,144,144);
+  background: #443266;
+  color: #F1F0FF;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -30,8 +25,8 @@ body {
 }
 
 .form-control:focus {
-  //color:rgb(92,92,92);
-  //background: rgb(144,144,144);
+  color: #F1F0FF;
+  background: #443266;
   border-left: 0;
   border-right: 0;
   border-top: 0;
